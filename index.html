@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francesca Mazzoni | Portfolio & CV Interattivo</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio professionale di Francesca Mazzoni. Operatrice museale, tecnico bibliotecario e social media manager specializzata nella valorizzazione dei beni culturali.">
+  <meta name="keywords" content="Francesca Mazzoni, Portfolio, CV, Operatrice Museale, Tecnico Bibliotecario, Social Media Manager, Genova">
+  <meta name="author" content="Francesca Mazzoni">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">FM</a>
+      <ul class="nav-menu">
+        <li><a href="#profilo" class="nav-link">Chi Sono</a></li>
+        <li><a href="#esperienze" class="nav-link">Esperienze</a></li>
+        <li><a href="#corsi" class="nav-link">Formazione</a></li>
+        <li><a href="#competenze" class="nav-link">Competenze</a></li>
+        <li><a href="#contatti" class="nav-link nav-btn">Contatti</a></li>
+      </ul>
+      <button class="menu-toggle" id="mobile-menu-btn" aria-label="Apri menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-pretitle">Benvenuto nel mio portfolio</span>
+        <h1 class="hero-title">FRANCESCA MAZZONI</h1>
+        <p class="hero-tagline">Operatrice Museale, Tecnico Bibliotecario & Social Media Manager</p>
+        <p class="hero-description">
+          Specializzata nella valorizzazione del patrimonio artistico e nel coordinamento operativo sul campo. Unisco solide competenze tecniche di catalogazione bibliotecaria ad attività consolidate di social media management, PR e fundraising per il settore culturale.
+        </p>
+        <div class="hero-ctas">
+          <a href="curriculum_francesca_mazzoni.pdf" download class="btn btn-primary" id="download-cv-btn" style="width: 100%; justify-content: center;">
+            <svg viewBox="0 0 24 24" class="btn-icon"><path d="M5 20h14v-2H5v2zm0-10h4V4h6v6h4l-7 7-7-7z"/></svg>
+            Scarica CV PDF
+          </a>
+          <div class="hero-ctas-sub">
+            <a href="https://wa.me/393400583181" target="_blank" class="btn-sub btn-whatsapp">
+              <svg viewBox="0 0 24 24" class="btn-icon"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.78 14c-.24.68-1.24 1.25-1.72 1.34-.48.09-.96.18-3.08-.68-2.68-1.09-4.38-3.83-4.51-4.01-.13-.18-1.09-1.45-1.09-2.77 0-1.32.69-1.97.94-2.24.25-.27.56-.34.75-.34.19 0 .37.01.53.02.17.01.39-.07.61.45.22.53.76 1.85.82 1.98.06.13.1.28.01.45-.09.18-.14.28-.28.45-.14.17-.3.38-.43.51-.15.15-.31.32-.13.63.18.31.81 1.34 1.73 2.16.92.82 1.69 1.07 1.93 1.19.24.12.39.1.53-.06.14-.17.61-.71.77-.96.16-.25.32-.21.54-.13.22.08 1.39.66 1.63.78.24.12.4.18.46.28.06.1.06.58-.18 1.26z"/></svg>
+              WhatsApp
+            </a>
+            <a href="https://www.linkedin.com/in/francesca-mazzoni-339070211/" target="_blank" class="btn-sub btn-linkedin">
+              <svg viewBox="0 0 24 24" class="btn-icon"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.8M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:mazzoni.f3@gmail.com" class="btn-sub btn-email">
+              <svg viewBox="0 0 24 24" class="btn-icon"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-area">
+        <div class="image-wrapper">
+          <img src="foto_profilo.jpg" alt="Francesca Mazzoni" class="hero-profile-img">
+          <div class="floating-badge badge-1">
+            <svg viewBox="0 0 24 24"><path d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.2 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55zM12 2c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3-3-1.34-3-3 1.34-3 3-3z"/></svg>
+            <span>Beni Culturali</span>
+          </div>
+          <div class="floating-badge badge-2">
+            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm0-3h12v2H6V6zm0 6h9v2H6v-2z"/></svg>
+            <span>Social Media</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile/Intro Section -->
+  <section class="section profile-section" id="profilo">
+    <div class="container">
+      <h2 class="section-title">Profilo Professionale</h2>
+      <div class="profile-grid">
+        <div class="profile-card">
+          <h3>Chi Sono</h3>
+          <p>
+            Operatrice museale e tecnico bibliotecario con solida esperienza in accoglienza culturale, didattica, front/back office e gestione eventi. Unisco forti competenze di catalogazione tecnica ad attività consolidate di PR, fundraising e gestione di piani editoriali per il settore culturale.
+          </p>
+        </div>
+        <div class="profile-stats">
+          <div class="stat-item">
+            <span class="stat-number">6+</span>
+            <span class="stat-label">Anni di Esperienza</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">9+</span>
+            <span class="stat-label">Sedi Culturali Gestite</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">7+</span>
+            <span class="stat-label">Corsi Specialistici</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Experiences (Timeline) -->
+  <section class="section experiences-section" id="esperienze">
+    <div class="container">
+      <h2 class="section-title">Esperienze Professionali</h2>
+      <p class="section-subtitle">Passa il mouse (desktop) o tocca (mobile) un'esperienza per vedere i dettagli</p>
+      
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        
+        <!-- Experience 1: S&L -->
+        <div class="timeline-item" id="exp-sl">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Febbraio 2020 - Oggi</span>
+              <h3>Specialista di Servizi Museali e Bibliotecari Integrati</h3>
+              <h4>Cooperativa Solidarietà e Lavoro (S&L) | Genova</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Ruolo Attuale:</strong>
+                  <ul>
+                    <li><strong>Musei di Nervi:</strong> coordinamento tecnico, biglietteria, front/back office, didattica per adulti/bambini, visite guidate.</li>
+                    <li><strong>Biblioteca di Recco:</strong> catalogazione testi moderni su software <em>Sebina Next</em> e <em>reference</em>.</li>
+                  </ul>
+                </li>
+                <li><strong>Sedi Gestite nel Tempo:</strong> Palazzo Reale, Castello D'Albertis, Biblioteca della Società Economica di Chiavari, Biblioteca "Serbandini Bini" (Lavagna).</li>
+                <li><strong>Social Media Management:</strong> ideazione, pianificazione editoriale e content creation per le pagine social ufficiali delle strutture gestite (es. <em>Wolfsoniana - Nervi</em>, <em>Biblioteca di Chiavari e Lavagna</em>).</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+        <!-- Experience 2: Mostre -->
+        <div class="timeline-item" id="exp-mostre">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">2018 - 2020</span>
+              <h3>Operatrice di Biglietteria Informatizzata & Gestione Sala</h3>
+              <h4>Mostre Temporanee & Grandi Esposizioni | Genova</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Strutture gestite:</strong> Studio BC (<em>Bernardo Strozzi, la conquista del colore</em>), Next Exhibition (<em>The Art of the Brick</em>), Time4fun (<em>Van Gogh Alive - The Experience</em>).</li>
+                <li><strong>Responsabilità:</strong> accoglienza visitatori, visite guidate, gestione cassa contanti/POS, stesura report giornalieri di back office, apertura/chiusura siti e supervisione sistemi di sicurezza.</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+        <!-- Experience 3: FAI -->
+        <div class="timeline-item" id="exp-fai">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">2014 - Oggi</span>
+              <h3>Capogruppo FAI Giovani Genova & Formatrice Regionale</h3>
+              <h4>Fondo Ambiente Italiano (FAI) – Delegazione di Genova</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Coordinamento e Strategia (dal 2022):</strong> gestione del direttivo, organizzazione eventi culturali, visite guidate speciali con attività di fundraising e direzione editoriale delle pagine social.</li>
+                <li><strong>Formazione & Fundraising (dal 2017):</strong> formazione dei volontari su tecniche di comunicazione, relazioni pubbliche e crisis management.</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+        <!-- Experience 4: San Giorgio -->
+        <div class="timeline-item" id="exp-sg">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Settembre 2018 - Aprile 2025</span>
+              <h3>Presidente & Coordinatrice di Segreteria</h3>
+              <h4>A.S.D. San Giorgio Fight Team | Genova</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Amministrazione & Eventi:</strong> gestione amministrativa e burocratica dell'associazione, organizzazione tornei sportivi nazionali ed eventi di rievocazione storica in collaborazione con il Comune di Genova e le associazioni storiche locali.</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+        <!-- Experience 5: Festival Scienza -->
+        <div class="timeline-item" id="exp-scienza">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Edizioni 2017, 2019, 2021, 2022, 2023</span>
+              <h3>Animatrice - Pianificatrice</h3>
+              <h4>Festival della Scienza | Genova</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Accoglienza & Biglietteria:</strong> vendita ticket cartacei/digitali e consulenza organizzativa/logistica al pubblico per la prenotazione e gestione degli eventi scientifici in calendario.</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+        <!-- Experience 6: Berio -->
+        <div class="timeline-item" id="exp-berio">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-date">Novembre 2015 - Novembre 2016</span>
+              <h3>Volontaria Servizio Civile Nazionale</h3>
+              <h4>Comune di Genova - Civica Biblioteca Berio</h4>
+            </div>
+            <div class="timeline-details">
+              <ul class="details-list">
+                <li><strong>Catalogazione & Didattica:</strong> catalogazione su software <em>Aleph 500</em>, organizzazione eventi culturali, redazione bibliografie, valorizzazione della raccolta locale e laboratori didattici interculturali in collaborazione con i Musei di Genova.</li>
+                <li><strong>Promozione alla Lettura:</strong> ideazione e creazione del &ldquo;gruppo di lettura ad alta voce&rdquo; per gli utenti della biblioteca.</li>
+              </ul>
+            </div>
+            <button class="expand-btn" aria-label="Espandi dettagli">Mostra Dettagli</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses and Specializations -->
+  <section class="section courses-section" id="corsi">
+    <div class="container">
+      <h2 class="section-title">Formazione & Corsi di Specializzazione</h2>
+      <div class="courses-grid">
+        
+        <!-- Course 1: Social Media & Ads -->
+        <div class="course-card">
+          <div class="course-date">Giugno 2026</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 9h-2V5h2v6zm0 4h-2v-2h2v2z"/></svg>
+          </div>
+          <h3>Social Media & Ads</h3>
+          <span class="course-provider">ENDOFAP LIGURIA</span>
+          <p>
+            Pianificazione e coordinamento di PED multicanale. Gestione di campagne pubblicitarie a pagamento (Meta Ads), definizione del target, monitoraggio delle metriche di performance e ottimizzazione del ROI.
+          </p>
+        </div>
+
+        <!-- Course 2: Accessibilità culturale -->
+        <div class="course-card">
+          <div class="course-date">Aprile 2026</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          </div>
+          <h3>Accessibilità Culturale</h3>
+          <span class="course-provider">Fondazione Scuola Nazionale del Patrimonio</span>
+          <p>
+            Metodologie di mediazione, narrazione ed efficacia comunicativa per il patrimonio artistico, orientate al superamento delle barriere fisiche, cognitive e sensoriali nei musei.
+          </p>
+        </div>
+
+        <!-- Course 3: Aschei 2025 -->
+        <div class="course-card">
+          <div class="course-date">Novembre 2025</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          </div>
+          <h3>Comunicazione e Social Media</h3>
+          <span class="course-provider">Studio Aschei & Associati</span>
+          <p>
+            Attestato specialistico di corso per la gestione e la pianificazione di contenuti strategici per canali social e pubbliche relazioni.
+          </p>
+        </div>
+
+        <!-- Course 4: WordPress -->
+        <div class="course-card">
+          <div class="course-date">Febbraio 2021</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <h3>Sviluppo Web con WordPress</h3>
+          <span class="course-provider">Accademia Domani</span>
+          <p>
+            Progettazione, sviluppo e gestione di siti web tramite piattaforma WordPress, ottimizzando l'architettura informativa e i contenuti digitali.
+          </p>
+        </div>
+
+        <!-- Course 5: AIB Ragazzi -->
+        <div class="course-card">
+          <div class="course-date">2021</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.2 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55z"/></svg>
+          </div>
+          <h3>Biblioteche per Ragazzi</h3>
+          <span class="course-provider">AIB (Associazione Italiana Biblioteche)</span>
+          <p>
+            Logiche di progettazione degli spazi, allestimento di sezioni dedicate e promozione della lettura per ragazzi e adolescenti.
+          </p>
+        </div>
+
+        <!-- Course 6: AIB Reference -->
+        <div class="course-card">
+          <div class="course-date">2021</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+          </div>
+          <h3>Il Servizio di Reference</h3>
+          <span class="course-provider">AIB (Associazione Italiana Biblioteche)</span>
+          <p>
+            Tecniche avanzate di assistenza informativa, reperimento fonti e orientamento degli utenti in biblioteca tra tradizione e digitale.
+          </p>
+        </div>
+
+        <!-- Course 7: S&L Biblioteconomia -->
+        <div class="course-card">
+          <div class="course-date">2020</div>
+          <div class="course-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          </div>
+          <h3>Biblioteconomia Livello 1</h3>
+          <span class="course-provider">Cooperativa Solidarietà e Lavoro</span>
+          <p>
+            Formazione interna sulle procedure di gestione fisica e informatica dei patrimoni librari e delle sale di consultazione.
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills and Languages -->
+  <section class="section skills-section" id="competenze">
+    <div class="container">
+      <h2 class="section-title">Competenze & Lingue</h2>
+      <div class="skills-grid-main">
+        
+        <!-- Technical Skills Grid -->
+        <div class="skills-column">
+          <h3>Competenze Tecniche</h3>
+          <div class="skills-list">
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Catalogazione (Sebina Next, Aleph 500)</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Digital, MS Office & Basi di HTML</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Social Media & Facebook/Instagram Ads</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Grafica & Foto (Photoshop, GIMP)</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">CMS (WordPress)</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Languages & Certifications -->
+        <div class="skills-column">
+          <h3>Lingue Straniere</h3>
+          <div class="languages-area">
+            <div class="lang-circle-item">
+              <div class="circle-progress" data-percentage="100">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path class="circle" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <text x="18" y="20.35" class="percentage">100%</text>
+                </svg>
+              </div>
+              <span class="lang-title">Italiano</span>
+              <span class="lang-desc">Madrelingua</span>
+            </div>
+            
+            <div class="lang-circle-item">
+              <div class="circle-progress" data-percentage="80">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <text x="18" y="20.35" class="percentage">80%</text>
+                </svg>
+              </div>
+              <span class="lang-title">Inglese</span>
+              <span class="lang-desc">Eccellente livello</span>
+            </div>
+          </div>
+          
+          <div class="certifications-box">
+            <h4>Certificazioni Linguistiche</h4>
+            <ul>
+              <li>
+                <svg viewBox="0 0 24 24" class="cert-icon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1 .45-2.1 1.17-2.83l1.24-1.26c.37-.36 .59-.86 .59-1.41 0-1.1 -.9-2 -2-2s-2 .9 -2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04 -.42 1.99-1.07 2.75z"/></svg>
+                <span>Cambridge English: Preliminary (PET)</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" class="cert-icon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1 .45-2.1 1.17-2.83l1.24-1.26c.37-.36 .59-.86 .59-1.41 0-1.1 -.9-2 -2-2s-2 .9 -2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04 -.42 1.99-1.07 2.75z"/></svg>
+                <span>Trinity College London: Grade 7 & 8</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts & Footer -->
+  <footer class="footer-section" id="contatti">
+    <div class="container">
+      <h2 class="section-title">Contatti & Info</h2>
+      
+      <div class="footer-grid">
+        
+        <!-- Contact details -->
+        <div class="contact-info">
+          <h3>Mettiti in Contatto</h3>
+          <p>Sei interessato ad avviare una collaborazione culturale, bibliotecaria o di social media management? Contattami direttamente.</p>
+          
+          <div class="contact-methods">
+            <div class="method-item">
+              <svg viewBox="0 0 24 24" class="method-icon"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>+39 340 0583181</span>
+            </div>
+            <div class="method-item">
+              <svg viewBox="0 0 24 24" class="method-icon"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <a href="mailto:mazzoni.f3@gmail.com">mazzoni.f3@gmail.com</a>
+            </div>
+            <div class="method-item">
+              <svg viewBox="0 0 24 24" class="method-icon"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span>Genova, Italia</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- QR & Download -->
+        <div class="contact-qr">
+          <div class="qr-wrapper">
+            <img src="qr_code.png" alt="QR Code" class="footer-qr-img">
+            <p>Scansiona per salvare questo link sui tuoi dispositivi mobili.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Francesca Mazzoni. Tutti i diritti riservati.</p>
+        <p class="gdpr-footer">Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR (Regolamento UE 2016/679).</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script file link -->
+  <script src="script.js"></script>
+</body>
+</html>
